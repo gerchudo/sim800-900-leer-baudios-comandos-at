@@ -1,10 +1,7 @@
 /**************************************************************
  *
- * This script tries to auto-detect the baud rate
- * and allows direct AT commands access
- *
- * TinyGSM Getting Started guide:
- *   https://tiny.cc/tinygsm-readme
+ * HUE CAT PROGRAMACIÓN DE AUTOR * ESPAÑA 2023
+ * Este ejemplo utiliza la librería SoftwareSerial y TinyGSM para comunicarse con el módem SIM900
  *
  **************************************************************/
 
@@ -23,6 +20,7 @@
 // #define TINY_GSM_MODEM_ESP8266
 // #define TINY_GSM_MODEM_XBEE
 
+//Esta lónea separa
 // Set serial for debug console (to the Serial Monitor, speed 115200)
 #define SerialMon Serial
 
