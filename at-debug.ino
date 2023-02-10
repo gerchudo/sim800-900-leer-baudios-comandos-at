@@ -1,6 +1,6 @@
 /**************************************************************
  *
- * HUE CAT PROGRAMACIÓN DE AUTOR * ESPAÑA 2023
+ * HUE CAT ESPAÑA 2023
  * Este ejemplo utiliza la librería SoftwareSerial y TinyGSM para comunicarse con el módem SIM900
  *
  **************************************************************/
