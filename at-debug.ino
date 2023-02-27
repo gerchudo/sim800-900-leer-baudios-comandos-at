@@ -2,30 +2,18 @@
  *
  * HUE CAT ESPAÑA 2023
  * Este ejemplo utiliza la librería SoftwareSerial y TinyGSM para comunicarse con el módem SIM900
- *
+
  **************************************************************/
 
-// Select your modem:
+// Selecciona tu modem:
  #define TINY_GSM_MODEM_SIM900
-// #define TINY_GSM_MODEM_SIM808
-// #define TINY_GSM_MODEM_SIM868
-// #define TINY_GSM_MODEM_UBLOX
-// #define TINY_GSM_MODEM_M95
-// #define TINY_GSM_MODEM_BG96
-// #define TINY_GSM_MODEM_A6
-// #define TINY_GSM_MODEM_A7
-// #define TINY_GSM_MODEM_M590
-// #define TINY_GSM_MODEM_MC60
-// #define TINY_GSM_MODEM_MC60E
-// #define TINY_GSM_MODEM_ESP8266
-// #define TINY_GSM_MODEM_XBEE
+// #define TINY_GSM_MODEM_SIM800
 
-//Esta lónea separa
-// Set serial for debug console (to the Serial Monitor, speed 115200)
+// Establecer serial para la consola de depuración (al Monitor Serial, velocidad 115200)
 #define SerialMon Serial
 
-// Set serial for AT commands (to the module)
-// Use Hardware Serial on Mega, Leonardo, Micro
+// Establecer Serial para comandos AT (al módulo)
+// Usar serie de hardware en Mega, Leonardo, Micro
 //#define SerialAT Serial1
 
 // or Software Serial on Uno, Nano
